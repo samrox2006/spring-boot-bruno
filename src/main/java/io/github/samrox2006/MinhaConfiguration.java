@@ -8,7 +8,7 @@ public class MinhaConfiguration {
 
     @Bean(name = "applicationName")
     public String applicationName(){
-        return "Sistema de Vendas";
+        return "Sistema de Vendas Bruno";
     }
 
     @Bean(name = "outraConfiguracao")

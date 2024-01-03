@@ -15,9 +15,6 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="curso-spring-boot-bruno" options="-parameters" />
-      <module name="spring-boot-bruno" options="-parameters" />
-      <module name="spring-boot-vendas" options="-parameters" />
       <module name="vendas" options="-parameters" />
     </option>
   </component>

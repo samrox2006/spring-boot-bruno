@@ -6,23 +6,22 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
 
-@Configuration
+@Development
 public class MinhaConfiguration {
 
-    @Profile("production")
-    @Bean
-    public CommandLineRunner executar(){
+
+/*    @Bean
+    public CommandLineRunner executar_prod(){
         return args -> {
-            System.out.println("RODANDO AS CONFIGURAÇÔES DE PRODUÇÃO");
+            System.out.println("RODANDO AS CONFIGURAÇÕES DE PRODUÇÃO");
         };
 
-   }
+   }*/
 
-    @Profile("development")
     @Bean
-    public CommandLineRunner executar2(){
+    public CommandLineRunner executar_dev(){
         return args -> {
-            System.out.println("RODANDO AS CONFIGURAÇÔES DE DEVELOPMENT");
+            System.out.println("RODANDO AS CONFIGURAÇÕES DE DESENVOLVIMENTO");
         };
 
     }
